@@ -286,6 +286,37 @@
     </grid-option>
 
     <grid-option
+        launcher:name="5_by_10"
+        launcher:numRows="10"
+        launcher:numColumns="5"
+        launcher:numFolderRows="6"
+        launcher:numFolderColumns="4"
+        launcher:numHotseatIcons="5"
+        launcher:dbFile="launcher_5_by_10.db"
+        launcher:isScalable="true"
+        launcher:folderStyle="@style/Folder5x7Style"
+        launcher:inlineNavButtonsEndSpacing="@dimen/taskbar_button_margin_split"
+        launcher:defaultLayoutId="@xml/default_workspace_5x10"
+        launcher:deviceCategory="phone|multi_display" >
+
+        <display-option
+            launcher:allAppsBorderSpace="16.0"
+            launcher:allAppsCellHeight="104.0"
+            launcher:borderSpace="16.0"
+            launcher:canBeDefault="true"
+            launcher:horizontalMargin="22.0"
+            launcher:iconImageSize="56.0"
+            launcher:iconSizeLandscape="59.0"
+            launcher:iconTextSize="12.0"
+            launcher:minCellHeight="77.14"
+            launcher:minCellWidth="61.0"
+            launcher:minHeightDps="750.0"
+            launcher:minWidthDps="406.0"
+            launcher:name="Pixel 2020" />
+
+    </grid-option>
+
+    <grid-option
         launcher:allAppsStyle="@style/AllAppsStyle6x5"
         launcher:cellStyle="@style/CellStyle6x5"
         launcher:dbFile="launcher_6_by_5.db"
